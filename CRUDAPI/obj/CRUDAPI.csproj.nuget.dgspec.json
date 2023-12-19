@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vitor\\Desktop\\Personal Blog\\Personal-Blog\\CRUDAPI\\CRUDAPI.csproj": {}
+    "C:\\Users\\vitor\\Desktop\\Personal Blog\\Personal-Blog\\crudapi\\CRUDAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vitor\\Desktop\\Personal Blog\\Personal-Blog\\CRUDAPI\\CRUDAPI.csproj": {
+    "C:\\Users\\vitor\\Desktop\\Personal Blog\\Personal-Blog\\crudapi\\CRUDAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor\\Desktop\\Personal Blog\\Personal-Blog\\CRUDAPI\\CRUDAPI.csproj",
+        "projectUniqueName": "C:\\Users\\vitor\\Desktop\\Personal Blog\\Personal-Blog\\crudapi\\CRUDAPI.csproj",
         "projectName": "CRUDAPI",
-        "projectPath": "C:\\Users\\vitor\\Desktop\\Personal Blog\\Personal-Blog\\CRUDAPI\\CRUDAPI.csproj",
+        "projectPath": "C:\\Users\\vitor\\Desktop\\Personal Blog\\Personal-Blog\\crudapi\\CRUDAPI.csproj",
         "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor\\Desktop\\Personal Blog\\Personal-Blog\\CRUDAPI\\obj\\",
+        "outputPath": "C:\\Users\\vitor\\Desktop\\Personal Blog\\Personal-Blog\\crudapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config"

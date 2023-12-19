@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3FjUpCJ10xIHDmZPDYIu2ytkI2wWxeDxo+F24Drr1DjcDzENu8e5FjPvpaj4ezqqQts9jd7vLjcoVs8iMcOQfQ==",
+  "dgSpecHash": "ouIZV1lStVmuQ+FcRa8l/fqj17IvKX8INLATyiprqRX2108Zp9dwey96LTzbHOBcGpss2DwKO2PGZ7L+d0p6xA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vitor\\Desktop\\Personal Blog\\Personal-Blog\\CRUDAPI\\CRUDAPI.csproj",
+  "projectFilePath": "C:\\Users\\vitor\\Desktop\\Personal Blog\\Personal-Blog\\crudapi\\CRUDAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vitor\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\vitor\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
