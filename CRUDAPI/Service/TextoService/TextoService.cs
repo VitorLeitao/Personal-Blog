@@ -104,15 +104,15 @@ namespace CRUDAPI.Service.TextoService
                 // Iterar sobre as propriedades de NovoTexto e atualizar o textoAntigo
                 foreach (var prop in typeof(TextosModels).GetProperties()){
                 // Não alterar nem a chave primaria nem a estrangeira
-                if (prop.Name != "TextoId" && prop.Name != "UsuarioId")
-                {
-                    var novoValor = prop.GetValue(NovoTexto);
-                    if (novoValor != "")
+                    if (prop.Name != "TextoId" && prop.Name != "UsuarioId")
                     {
-                        prop.SetValue(textoAntigo, novoValor);
+                        var novoValor = prop.GetValue(NovoTexto);
+                        if (novoValor != "")
+                        {
+                            prop.SetValue(textoAntigo, novoValor);
+                        }
                     }
                 }
-            }
                 // Salvar as mudanças no banco de dados
                 await _context.SaveChangesAsync();
                 // Retornando o texto que foi alterado

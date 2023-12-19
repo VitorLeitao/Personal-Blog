@@ -26,5 +26,15 @@ namespace CRUDAPI.Controllers
         {
             return Ok(await _userInterface.CreateUser(NovoUsuario));
         }
+
+        [HttpGet("{userName}")]
+        public async Task<ActionResult<ServiceResponse<int>>> GetUserIdByUserName(string userName){
+            return Ok(await _userInterface.GetUserIdByUserName(userName));
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<ServiceResponse<List<UserModel>>>> UpdateUser(UserModel NovoUsuario, int id){
+            return Ok(await _userInterface.UpdateUser(NovoUsuario, id));
+        }
     }
 }
